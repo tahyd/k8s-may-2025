@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata: 
+ name: mongo-configmap
+immutable: true # config map can not be modified
+data:
+  username: krishna
+  password: krishna
